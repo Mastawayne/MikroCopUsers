@@ -1,0 +1,7 @@
+﻿services:
+  mikrocopusers:
+    image: mikrocopusers
+    build:
+      context: .
+      dockerfile: MikroCopUsers/Dockerfile
+
